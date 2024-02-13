@@ -1,1 +1,66 @@
-{"page":1,"id":10,"w":240,"obj":"label","text":"%hostname%"}
+{"id":0,"bg_color":"#000"}
+{"page":1,"id":0,"bg_color":"#000","bg_grad_color":"#000"}
+{"page":2,"id":0,"bg_color":"#000","bg_grad_color":"#000"}
+{"page":3,"id":0,"bg_color":"#000","bg_grad_color":"#000"}
+{"page":4,"id":0,"bg_color":"#000","bg_grad_color":"#000"}
+{"page":5,"id":0,"bg_color":"#000","bg_grad_color":"#000"}
+
+{"page":0, "comment":"---------- All Pages ----------"}
+{"id":1,"obj":"label","x":0,"y":0,"w":200,"h":34,"text":"\uE50F 0.0°F","text_font":16,"bg_color":"#000000","text_color":"#FFFFFF","align": 0, "text_font": 32}
+{"id":2,"obj":"label","x":0,"y":32,"w":200,"h":34,"text":"\uE2DC 0.0°F","text_font":16,"bg_color":"#000000","text_color":"#FFFFFF","align": 0, "text_font": 32}
+{"id":3,"obj":"label","x":600,"y":0,"w":200,"h":34,"text":"\uF40B 0.0 kW","text_font":16,"bg_color":"#000000","text_color":"#FFFFFF","align": 2, "text_font": 32}
+{"id":4,"obj":"label","x":600,"y":32,"w":200,"h":34,"text":"\uE5F1 0.0 kW","text_font":16,"bg_color":"#000000","text_color":"#FFFFFF","align": 2, "text_font": 32}
+{"id":5,"obj":"label","x":200,"y":20,"w":400,"h":64,"text":"","text_font":42,"bg_color":"#000000","text_color":"#FFFFFF","align": 1, "text_font": 44}
+
+{"id":6,"obj":"btn","action":{"down": "page prev"},"x":0,"y":400,"w":250,"h":80,"bg_color":"#2C3E50", "bg_grad_color":"#000", "bg_grad_dir": 0, "text":"\uE141","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":40}
+{"id":7,"obj":"btn","action":{"down": "page back"},"x":250,"y":400,"w":300,"h":80,"bg_color":"#2C3E50", "bg_grad_color":"#000", "bg_grad_dir": 0, "text":"\uE2DC","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":40}
+{"id":8,"obj":"btn","action":{"down": "page next"},"x":550,"y":400,"w":250,"h":80,"bg_color":"#2C3E50", "bg_grad_color":"#000", "bg_grad_dir": 0, "text":"\uE142","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":40}
+
+{"comment":"---------- Limit page prev/next between 1 and 4 ----------"}
+{"page":1,"id":0,"prev":5}
+{"page":5,"id":0,"next":1}
+
+{"page":1,"comment":"---------- Page 1 ----------"}
+{"id":2,"obj":"btn","x":35,"y":100,"w":130,"h":130,"toggle":true,"text":"Back Lights","text_font":32,"mode":"break","align":1}
+{"id":3,"obj":"btn","x":185,"y":100,"w":130,"h":130,"toggle":true,"text":"Lower Back Lights","text_font":26,"mode":"break","align":1}
+{"id":4,"obj":"btn","x":335,"y":100,"w":130,"h":130,"toggle":true,"text":"String\nLights","text_font":32,"mode":"break","align":1}
+{"id":5,"obj":"btn","x":485,"y":100,"w":130,"h":130,"toggle":true,"text":"Front\nLights","text_font":32,"mode":"break","align":1}
+
+{"id":6,"obj":"btn","x":35,"y":255,"w":130,"h":130,"toggle":true,"text":"Fan\nLights","text_font":32,"mode":"break","align":1}
+{"id":7,"obj":"btn","x":185,"y":255,"w":130,"h":130,"toggle":true,"text":"Can\nLights","text_font":32,"mode":"break","align":1}
+{"id":8,"obj":"btn","x":335,"y":255,"w":130,"h":130,"toggle":true,"text":"Piano\nLights","text_font":32,"mode":"break","align":1}
+{"id":9,"obj":"btn","x":485,"y":255,"w":130,"h":130,"toggle":true,"text":"Fan","text_font":32,"mode":"break","align":1}
+{"id":10,"obj":"btn","x":635,"y":255,"w":130,"h":130,"toggle":true,"text":"Music","text_font":32,"mode":"break","align":1}
+
+
+{"page":2, "comment":"---------- Page 2 ----------"}
+{"id":2,"obj":"btn","x":35,"y":100,"w":130,"h":130,"toggle":true,"text":"Upstairs Light","text_font":32,"mode":"break","align":1}
+{"id":3,"obj":"btn","x":185,"y":100,"w":130,"h":130,"toggle":true,"text":"Downstairs Light","text_font":28,"mode":"break","align":1}
+{"id":4,"obj":"btn","x":335,"y":100,"w":130,"h":130,"toggle":true,"text":"Kitchen\nLights","text_font":32,"mode":"break","align":1}
+{"id":5,"obj":"btn","x":485,"y":100,"w":130,"h":130,"toggle":true,"text":"Kitchen Pendants","text_font":32,"mode":"break","align":1}
+{"id":6,"obj":"btn","x":635,"y":100,"w":130,"h":130,"toggle":true,"text":"Printer","text_font":30,"mode":"break","align":1}
+
+{"page":3, "comment":"---------- Page 3 ----------"}
+{"id":2,"obj":"label","x":40,"y":100,"w":720,"h":60,"text":"Brightness","text_font":50,"bg_color":"#000000","text_color":"#FFFFFF","align": 1}
+{"id":3,"obj":"slider","x":40,"y":180,"w":720,"h":50,"min":0,"max":255}
+{"id":4,"obj":"label","x":40,"y":250,"w":720,"h":60,"text":"Fan Speed","text_font":50,"bg_color":"#000000","text_color":"#FFFFFF","align": 1}
+{"id":5,"obj":"slider","x":40,"y":330,"w":720,"h":50,"min":0,"max":255}
+
+{"page":4, "comment":"---------- Page 4 ----------"}
+{"id":1,"obj":"img", "src": "", "x":300, "y": 80, "w": 200, "h": 200}
+{"id":2,"obj":"label","x":20,"y":300,"w":760,"h":54,"text":"","text_font":42,"bg_color":"#000000","text_color":"#FFFFFF","align": 1, "mode": "dots"}
+{"id":3,"obj":"label","x":20,"y":356,"w":760,"h":34,"text":"","text_font":28,"bg_color":"#000000","text_color":"#FFFFFF","align": 1, "mode": "dots"}
+{"id":4,"obj":"btn","x":585,"y":100,"w":130,"h":130,"text":"\uE4AD","text_font":32,"align": 1, "mode": "break"}
+{"id":5,"obj":"btn","x":85,"y":100,"w":130,"h":130,"text":"\uE40A","text_font":32,"align": 1, "mode": "break"}
+
+{"page":5,"comment":"---------- Page 5 ----------"}
+{"id":2,"obj":"btn","x":35,"y":100,"w":130,"h":130,"toggle":false,"text":"Reggae\nRadio","text_font":32,"mode":"break","align":1}
+{"id":3,"obj":"btn","x":185,"y":100,"w":130,"h":130,"toggle":false,"text":"Green Day Radio","text_font":26,"mode":"break","align":1}
+{"id":4,"obj":"btn","x":335,"y":100,"w":130,"h":130,"toggle":false,"text":"P!nk Radio","text_font":32,"mode":"break","align":1}
+{"id":5,"obj":"btn","x":485,"y":100,"w":130,"h":130,"toggle":false,"text":"Today's Adult Hits","text_font":32,"mode":"break","align":1}
+
+{"id":6,"obj":"btn","x":35,"y":255,"w":130,"h":130,"toggle":false,"text":"Alternative","text_font":30,"mode":"break","align":1}
+{"id":7,"obj":"btn","x":185,"y":255,"w":130,"h":130,"toggle":false,"text":"80's Pop Radio","text_font":32,"mode":"break","align":1}
+{"id":8,"obj":"btn","x":335,"y":255,"w":130,"h":130,"toggle":false,"text":"80's Greatest Hits","text_font":32,"mode":"break","align":1}
+{"id":9,"obj":"btn","x":485,"y":255,"w":130,"h":130,"toggle":false,"text":"90's 2000's and Today","text_font":26,"mode":"break","align":1}
+
