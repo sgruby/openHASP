@@ -48,8 +48,8 @@
 
 {"page":4, "comment":"---------- Page 4 ----------"}
 {"id":1,"obj":"img", "src": "", "x":300, "y": 80, "w": 200, "h": 200}
-{"id":2,"obj":"label","x":20,"y":300,"w":760,"h":54,"text":"","text_font":42,"bg_color":"#000000","text_color":"#FFFFFF","align": 1, "mode": "dots"}
-{"id":3,"obj":"label","x":20,"y":356,"w":760,"h":34,"text":"","text_font":28,"bg_color":"#000000","text_color":"#FFFFFF","align": 1, "mode": "dots"}
+{"id":2,"obj":"label","x":20,"y":300,"w":760,"h":54,"text":"","text_font":42,"bg_color":"#000000","text_color":"#FFFFFF","align": 1, "mode": "loop"}
+{"id":3,"obj":"label","x":20,"y":356,"w":760,"h":34,"text":"","text_font":28,"bg_color":"#000000","text_color":"#FFFFFF","align": 1, "mode": "loop"}
 {"id":4,"obj":"btn","x":585,"y":100,"w":130,"h":130,"text":"\uE4AD","text_font":32,"align": 1, "mode": "break"}
 {"id":5,"obj":"btn","x":85,"y":100,"w":130,"h":130,"text":"\uE40A","text_font":32,"align": 1, "mode": "break"}
 
